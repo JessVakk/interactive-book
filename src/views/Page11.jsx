@@ -3,11 +3,11 @@ import { Navigate } from 'react-router-dom';
 import { useState } from 'react';
 import '../App.css';
 
-const Page3 = () => {
+const Page11 = () => {
     const [nextPage, setNextPage] = useState(false);
 
     if (nextPage) {
-        return <Navigate to="/sida4" />;
+        return <Navigate to="/sida1" />;
     }
   return (
     <div className='square'>
@@ -18,10 +18,10 @@ const Page3 = () => {
         </div>
         <div className='btn-container'>
           <button className='btn' onClick={() => {setNextPage(true);}}>
-          {" "} Gå vidare </button>
+          {" "} Gå tillbaka till start </button>
         </div>
       </div>
   )
 }
 
-export default Page3
+export default Page11

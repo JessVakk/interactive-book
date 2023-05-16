@@ -3,11 +3,11 @@ import { Navigate } from 'react-router-dom';
 import { useState } from 'react';
 import '../App.css';
 
-const Page3 = () => {
+const Page8 = () => {
     const [nextPage, setNextPage] = useState(false);
 
     if (nextPage) {
-        return <Navigate to="/sida4" />;
+        return <Navigate to="/sida9" />;
     }
   return (
     <div className='square'>
@@ -24,4 +24,4 @@ const Page3 = () => {
   )
 }
 
-export default Page3
+export default Page8

@@ -11,7 +11,7 @@ const Page2 = () => {
         return <Navigate to="/sida3" />;
     
     }else if (choise2) {
-            return <Navigate to="/sida4" />;
+            return <Navigate to="/sida3a" />;
     
     }
     
