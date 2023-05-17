@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '../../assets/vännerna.png';
+import img1 from '../../assets/vännerna1.png';
 
 const Page3A = () => {
   return (

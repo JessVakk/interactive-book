@@ -3,41 +3,150 @@
   padding: 0;
   box-sizing: border-box;
 }
+.BackgroundCover{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
 .splitScren{
   display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr 1fr;
-}
-.leftSide, .rightSide{
-  height: 100vh;
-  width: 100%;
-}
-.column{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 80%;
+  grid-template-columns: 1fr 1fr;  
 }
 
-.leftSide{
-  background: lightgreen;
+.leftSide, .rightSide{
+  height: 90vh;
+  width: 90%;
+}
+.column1{
   display: flex;
+  justify-content: right;
+  align-items: center; 
+}
+.btn-container{
+ display: flex;
+ justify-content: center;
+
+ 
+}
+.column2{
+  display: flex;
+  justify-content: left;
+  align-items: center; 
+}
+.btn{
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  border-radius: 2rem;
+  background: rgb(143, 8, 143);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.text-container{
+  margin: 3rem;
+}
+.leftSide{
+  display: row;
   justify-content: center;
   align-items: center;
+  border-style: solid;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-color: #1f1e1e;
+  box-shadow: 5px 10px 20px 10px #1f1e1e;
 }
 
 .rightSide{
-  background: lightblue;
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-style: solid;
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-color: #1f1e1e;
+  box-shadow: 5px 10px 20px 10px #1f1e1e;
 }
 
 .pageImg{
   display: flex;
   justify-content: center;
   align-items: center;
+  object-fit: cover;
 }
 
+@media (orientation:portrait) and (max-width: 500px) {
+
+  .leftSide{
+    background: lightpink;
+  
+  }
+}
+@media (orientation:portrait){
+  .splitScren{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr ;
+  }
+  .rightSide{
+    background: rgb(32, 239, 13);
+  }
+}
+
+@media (orientation:landscape){
+  
+  .splitScren{
+    display: grid;
+    height: 95vh;
+    width: 95%;
+    grid-template-columns: 1fr 1fr;
+    background-color: teal;
+    border-top-width: 1px;
+    box-shadow: 5px 10px 20px 10px black;
+    border-radius: .5rem;
+    
+  }
+  .leftSide{
+    background: blue;
+  
+  }
+}
+
+@media (orientation:landscape) and (min-width:800px){
+  
+  .leftSide{
+    background: purple;
+
+  }
+  .pageImg, img{
+    max-width: 100%;
+   
+  }
+}
+@media (orientation:landscape) and (min-width:1000px){
+  
+  .leftSide{
+    background: white;
+  
+  }
+  
+}
+@media (orientation:landscape) and (min-width:1200px){
+  
+  .leftSide{
+    background: red;
+  
+  }
+  .pageImg, img{
+
+    max-width: 100%;
+   
+  }
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

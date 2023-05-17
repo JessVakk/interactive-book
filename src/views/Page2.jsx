@@ -11,11 +11,8 @@ const Page2 = () => {
         return <Navigate to="/sida3" />;
     
     }else if (choise2) {
-            return <Navigate to="/sida3a" />;
-    
+        return <Navigate to="/sida3a" />;
     }
-    
-    
     
   return (
     <div className='square'>
