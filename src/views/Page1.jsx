@@ -24,13 +24,9 @@ const Page1 = () => {
                 <br />
                 <p>När han blev lite större fick han genomgå en operation för att laga sitt hjärta. Nu är han precis som alla andra Maneter och kan hoppa och simma omkring, men han kan inte simma för fort eller göra det för länge för att hans hjärta ska må bra.</p>
                 <div className='btn-container'>
-                <button className='btn' onClick={() => {setNextPage(true);}}>
-                {" "} Gå vidare </button>
-              </div>
-              </div>
-              <div className='btn-container'>
-                <button className='btn' onClick={() => {setNextPage(true);}}>
-                {" "} Gå vidare </button>
+                  <button className='btn' onClick={() => {setNextPage(true);}}>
+                  {" "} Gå vidare </button>
+                </div>
               </div>
             </div>  
           </div>
