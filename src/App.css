@@ -31,6 +31,9 @@
   justify-content: left;
   align-items: center; 
 }
+a{
+  text-decoration: none;
+}
 .btn{
   display: flex;
   justify-content: center;
@@ -89,18 +92,40 @@
 
   .leftSide{
     background: lightpink;
-  
   }
 }
 @media (orientation:portrait){
   .splitScren{
     display: grid;
+    justify-content: center;
     height: 100vh;
     grid-template-columns: 1fr ;
   }
-  .rightSide{
-    background: rgb(32, 239, 13);
+  .column1, .column2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+  .column1:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .column2:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: -1;
+  }
+  .rightSide{
+    border-color: none;
+    box-shadow: none;
+  }
+  .leftSide{
+    border-color: none;
+    box-shadow: none;
+  }
+
 }
 
 @media (orientation:landscape){

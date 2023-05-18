@@ -1,5 +1,6 @@
 
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation} from 'react-router-dom';
+import {AnimatePresence} from 'framer-motion';
 import './App.css';
 import Page1 from './views/Page1';
 import Page2 from './views/Page2';
@@ -21,28 +22,30 @@ import Page11 from './views/Page11';
 
 
 function App() {
+  const location = useLocation();
   return (
     <div className="App">
       <header className="App-header">
-        <Routes>
-          <Route path='/sida1' element= { <Page1 />} />
-          <Route path='/sida2' element= { <Page2 />} />
-          <Route path='/sida3' element= { <Page3 />} />
-          <Route path='/sida3a' element= { <Page3A />} />
-          <Route path='/sida4' element= { <Page4 />} />
-          <Route path='/sida5' element= { <Page5 />} />
-          <Route path='/sida5a' element= { <Page5A />} />
-          <Route path='/sida6' element= { <Page6 />} />
-          <Route path='/sida6a' element= { <Page6A />} />
-          <Route path='/sida7' element= { <Page7 />} />
-          <Route path='/sida7a' element= { <Page7A />} />
-          <Route path='/sida8' element= { <Page8 />} />
-          <Route path='/sida8a' element= { <Page8A />} />
-          <Route path='/sida9' element= { <Page9 />} />
-          <Route path='/sida10' element= { <Page10 />} />
-          <Route path='/sida11' element= { <Page11 />} />
-
-        </Routes>
+        <AnimatePresence mode="wait" inital={false}>
+          <Routes location={location} key={location.pathname}>
+            <Route path='/sida1' element= { <Page1 />} />
+            <Route path='/sida2' element= { <Page2 />} />
+            <Route path='/sida3' element= { <Page3 />} />
+            <Route path='/sida3a' element= { <Page3A />} />
+            <Route path='/sida4' element= { <Page4 />} />
+            <Route path='/sida5' element= { <Page5 />} />
+            <Route path='/sida5a' element= { <Page5A />} />
+            <Route path='/sida6' element= { <Page6 />} />
+            <Route path='/sida6a' element= { <Page6A />} />
+            <Route path='/sida7' element= { <Page7 />} />
+            <Route path='/sida7a' element= { <Page7A />} />
+            <Route path='/sida8' element= { <Page8 />} />
+            <Route path='/sida8a' element= { <Page8A />} />
+            <Route path='/sida9' element= { <Page9 />} />
+            <Route path='/sida10' element= { <Page10 />} />
+            <Route path='/sida11' element= { <Page11 />} />
+          </Routes>
+        </AnimatePresence>
       </header>
     </div>
   );
