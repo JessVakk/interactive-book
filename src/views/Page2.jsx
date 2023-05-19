@@ -7,10 +7,10 @@ import img2 from '../assets/friends.png';
 const Page2 = () => {
  
   return (
-    <motion.div intial={{scaleX: 0}} 
+    <motion.div intial={{scaleX: 1}} 
     animate={{scaleX: 1}} 
     exit={{scaleX: 0}}
-    transition={{duration: .8}}
+    transition={{duration: .9}}
     >
       <div>
         <div className='BackgroundCover'>

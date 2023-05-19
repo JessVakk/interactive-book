@@ -1,26 +1,47 @@
 import React from 'react'
-import { Navigate } from 'react-router-dom';
-import { useState } from 'react';
+import {Link} from 'react-router-dom';
+import {motion} from 'framer-motion';
 import '../App.css';
+import img1 from '../assets/anohAngrywithbackground.png';
 
 const Page3 = () => {
-    const [nextPage, setNextPage] = useState(false);
-
-    if (nextPage) {
-        return <Navigate to="/sida4" />;
-    }
+   
   return (
-    <div className='square'>
-        <div className='book-text-wrapper'>
-          <p className='book-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora pariatur iure error fuga quos id soluta. Veniam quis placeat nostrum consequuntur aperiam dignissimos cum minima quibusdam, molestias sit, enim quia?</p>
-          <br />
-          <p className='book-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quo facilis molestiae autem pariatur, quod eum dignissimos tempora cupiditate eaque ex iusto! Id explicabo magnam aspernatur excepturi obcaecati, eum molestiae.</p>
-        </div>
-        <div className='btn-container'>
-          <button className='btn' onClick={() => {setNextPage(true);}}>
-          {" "} Gå vidare </button>
+    <motion.div intial={{scaleX: 1}} 
+    animate={{scaleX: 1}} 
+    exit={{scaleX: 0}}
+    transition={{duration: 1}}
+    >
+      <div>
+        <div className='BackgroundCover'>
+          <div className='splitScren'>
+            <div className='column1'>
+              <div className='leftSide'>
+                <div className='text-container'>
+                  <p>-Jag ska testa att bränna, men jag har aldrig gjort det förut, sa Anoh försiktigt.</p>
+                  <br />
+                  <p>-Man är ingen riktig brännmanet om man inte kan brännas, sa den största Maneten.</p>
+                  <br />
+                  <p>Anoh blev lite arg. Han skulle allt visa dem att han var bra på att brännas precis som alla andra brännmaneter. Det var dock lite läskigt att prova något han aldrig hade gjort förut. Kan du hjälpa honom? Blås allt vad du kan.</p>
+                  <p>Hände det inget? Blås igen och tryck på Anoh.</p>
+                  <p>När Anoh försökte brännas kom det inget bränn, men han började att lysa med ett svagt sken.</p>
+                  <div className='btn-container'>
+                    <Link to="/sida4">
+                      <button className='btn'>Nästa sida</button>
+                    </Link>
+                  </div>
+                </div>
+              </div>  
+            </div>
+            <div className='column2'>
+              <div className='rightSide'>
+                <img className='pageImg' src={img1} alt=""/>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </motion.div>
   )
 }
 

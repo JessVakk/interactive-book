@@ -7,10 +7,11 @@ import img1 from '../assets/Anoh.png';
 const Page1 = () => {
    
   return (
-    <motion.div intial={{scaleX: 0}} 
+    <motion.div intial={{scaleX: 1}} 
     animate={{scaleX: 1}} 
     exit={{scaleX: 0}}
-    transition={{duration: .8}}
+    transition={{duration: 1, stiffness: 5000}}
+    
     >
       <div>
         <div className='BackgroundCover'>
@@ -33,7 +34,9 @@ const Page1 = () => {
             </div>
             <div className='column2'>
               <div className='rightSide'>
-                <img className='pageImg' src={img1} alt=""/>
+                <motion.div className="image-container">
+                  <motion.img className='pageImg' src={img1} alt=""/>
+                </motion.div>
               </div>
             </div>
           </div>
