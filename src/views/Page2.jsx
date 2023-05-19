@@ -10,7 +10,7 @@ const Page2 = () => {
     <motion.div intial={{scaleX: 1}} 
     animate={{scaleX: 1}} 
     exit={{scaleX: 0}}
-    transition={{duration: .9}}
+    transition={{duration: 1}}
     >
       <div>
         <div className='BackgroundCover'>

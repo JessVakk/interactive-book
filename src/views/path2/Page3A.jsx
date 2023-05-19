@@ -13,7 +13,7 @@ const Page3A = () => {
           </div>
           <div className='column'>
             <div className='rightSide'>
-                <img className='pageImg' src={img1} alt="arg manet" />
+                <img className='pageImg' src={img1} alt="" />
             </div>
           </div>
 
