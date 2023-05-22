@@ -1,34 +1,54 @@
 import React from 'react'
-import { Navigate } from 'react-router-dom';
-import { useState } from 'react';
+import {Link} from 'react-router-dom';
+import {motion} from 'framer-motion';
 import '../App.css';
+import img1 from '../assets/skrattande.png';
 
 const Page4 = () => {
-    
-    const [nextPage, setNextPage] = useState(false);
-    const [choise2, setChoise2] = useState(false);
-    if (nextPage) {
-        return <Navigate to="/sida5" />;
-    
-    }else if (choise2) {
-        return <Navigate to="/sida5a" />;
-    }
-    
+   
   return (
-    <div className='square'>
-        <div className='book-text-wrapper'>
-          <p className='book-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora pariatur iure error fuga quos id soluta. Veniam quis placeat nostrum consequuntur aperiam dignissimos cum minima quibusdam, molestias sit, enim quia?</p>
-          
-        </div>
-        <div className='btn-container'>
-          <button className='btn' onClick={() => {setNextPage(true);}}>
-          {" "} Deffy Delfin</button>
-          <button className='btn' onClick={() => {setChoise2(true);}}>
-          {" "} Alia Sjöhäst </button>
+    <motion.div intial={{scaleX: 1}} 
+    animate={{scaleX: 1}} 
+    exit={{scaleX: 0}}
+    transition={{duration: 1}}
+    >
+      <div>
+        <div className='BackgroundCover'>
+          <div className='splitScren'>
+            <div className='column1'>
+              <div className='leftSide'>
+                <div className='text-container'>
+                  <p>De andra maneterna började att skratta.</p>
+                  <p> -Maneter ska inte lysa. De ska brännas, sa den gröna maneten som hette Gregor.</p>
+                  <br />
+                  <p>-Äsch, jag klarade inte heller att brännas på första försöket sa Lilly Manet. -Kan vi inte göra något annat?</p>
+                  <p>-Vi har en simtävling istället, sa Gregor Manet.</p>
+                  <br />
+                  <p>Precis då kom Anohs vänner ut och hörde maneterna föreslå en simtävling.</p>
+                  <p>Både Alia Sjöhäst och Deffy Delfin reagerade och pratade i munnen på varandra om förslaget. Det var omöjligt för Anoh att höra vad någon av dem sa.</p>
+                  <br />
+                  <p>Vem ska Anoh lyssna på?</p>
+                  <div className='btn-container'>
+                    <Link to="/sida5">
+                      <button className='btn'>Deffy Delfin</button>
+                    </Link>
+                    <Link to="/sida5a">
+                      <button className='btn'>Alia Sjöhäst</button>
+                    </Link>
+                  </div>
+                </div>
+              </div>  
+            </div>
+            <div className='column2'>
+              <div className='rightSide'>
+                <img className='pageImg' src={img1} alt=""/>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </motion.div>
   )
 }
-
 
 export default Page4

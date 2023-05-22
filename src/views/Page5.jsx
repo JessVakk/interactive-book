@@ -1,34 +1,50 @@
 import React from 'react'
-import { Navigate } from 'react-router-dom';
-import { useState } from 'react';
+import {Link} from 'react-router-dom';
+import {motion} from 'framer-motion';
 import '../App.css';
+import img1 from '../assets/inför simtävling.png';
 
 const Page5 = () => {
-    
-    const [nextPage, setNextPage] = useState(false);
-    const [choise2, setChoise2] = useState(false);
-    if (nextPage) {
-        return <Navigate to="/sida6" />;
-    
-    }else if (choise2) {
-        return <Navigate to="/sida6a" />;
-    }
-    
+   
   return (
-    <div className='square'>
-        <div className='book-text-wrapper'>
-          <p className='book-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora pariatur iure error fuga quos id soluta. Veniam quis placeat nostrum consequuntur aperiam dignissimos cum minima quibusdam, molestias sit, enim quia?</p>
-          
-        </div>
-        <div className='btn-container'>
-          <button className='btn' onClick={() => {setNextPage(true);}}>
-          {" "} Vara domare </button>
-          <button className='btn' onClick={() => {setChoise2(true);}}>
-          {" "} Simma i tävlingen </button>
+    <motion.div intial={{scaleX: 1}} 
+    animate={{scaleX: 1}} 
+    exit={{scaleX: 0}}
+    transition={{duration: 1}}
+    >
+      <div>
+        <div className='BackgroundCover'>
+          <div className='splitScren'>
+            <div className='column1'>
+              <div className='leftSide'>
+                <div className='text-container'>
+                  <p>-Ja, vi tävlar sa Deffy Delfin entusiastiskt. Hon tyckte att en simtävling var en bra idé eftersom hon själv var snabb och tyckte om att vinna.</p>
+                  <p> Hon visste dock att det inte var bara för Anohs hjärta att simma så fort så hon tillade: -Anoh, Du kan ju vara domare om du inte kan simma snabbt.</p>
+                  <br />
+                  <p>Lilly Manet la huvudet på sned och sa: -Vad är du för en manet egentligen. Du kan varken brännas eller simma fort.</p>
+                  <br />
+                  <p>Anoh funderade på vad han skulle göra.</p>
+                  <div className='btn-container'>
+                    <Link to="/sida6">
+                      <button className='btn'>Vara domare</button>
+                    </Link>
+                    <Link to="/sida6a">
+                      <button className='btn'>Tävla i simning</button>
+                    </Link>
+                  </div>
+                </div>
+              </div>  
+            </div>
+            <div className='column2'>
+              <div className='rightSide'>
+                <img className='pageImg' src={img1} alt=""/>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </motion.div>
   )
 }
-
 
 export default Page5

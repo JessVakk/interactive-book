@@ -1,26 +1,56 @@
 import React from 'react'
-import { Navigate } from 'react-router-dom';
-import { useState } from 'react';
+import {Link} from 'react-router-dom';
+import {motion} from 'framer-motion';
 import '../App.css';
+import img1 from '../assets/shiningAnoh.png';
 
 const Page10 = () => {
-    const [nextPage, setNextPage] = useState(false);
-
-    if (nextPage) {
-        return <Navigate to="/sida11" />;
-    }
+   
   return (
-    <div className='square'>
-        <div className='book-text-wrapper'>
-          <p className='book-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora pariatur iure error fuga quos id soluta. Veniam quis placeat nostrum consequuntur aperiam dignissimos cum minima quibusdam, molestias sit, enim quia?</p>
-          <br />
-          <p className='book-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quo facilis molestiae autem pariatur, quod eum dignissimos tempora cupiditate eaque ex iusto! Id explicabo magnam aspernatur excepturi obcaecati, eum molestiae.</p>
-        </div>
-        <div className='btn-container'>
-          <button className='btn' onClick={() => {setNextPage(true);}}>
-          {" "} Gå vidare </button>
+    <motion.div intial={{scaleX: 1}} 
+    animate={{scaleX: 1}} 
+    exit={{scaleX: 0}}
+    transition={{duration: 1}}
+    >
+      <div>
+        <div className='BackgroundCover'>
+          <div className='splitScren'>
+            <div className='column1'>
+              <div className='leftSide'>
+                <div className='text-container'>
+                  <p>-Då sätter vi planen i verket, sa Anoh.</p>
+                  <br />
+                  <p>Anoh höll andan när han såg Lilly Manet bränna muränan, skulle han nappa på betet och simma efter Deffy Delfin?</p>
+                  <p>Just när han tänkte den tanken simmade en rosenrasande muräna ut ur hålet för att jaga efter Deffy.</p>
+                  <p>När muränan var borta gick alla in i grottan för att hämta sin vän, förutom Kantor Bläckfisk som höll vakt utanför ifall Muränan skulle komma tillbaka.</p>
+                  <br />
+                  <p>När de hade kommit en bit in i grottan blev det alldeles beckmörk och de såg ingenting.</p>
+                  <p>-Hur ska vi göra nu? sa Anoh bekymrat. -Vi ser ju ingenting.</p>
+                  <p>-Du är ju bra på att lysa Anoh, utbrast Lilly Manet.</p>
+                  <p>-Du kan lysa så att vi hittar honom.</p>
+                  <br />
+                  <p>Anoh började genast att göra som den gången han försökte brännas och till hans lycka kom det ett starkare sken denna gång.</p>
+                  <p>Långt borta hörde de Gregors Manets röst ropa: -Jag ser ett ljus.</p>
+                  <p>-Det är jag, ropade Anoh. -Gå mot ljuset så hittar du ut.</p>
+                  <br />
+                  <p>Det gick inte många sekunder innan Gregor Manet var framme och kramade om sina kompisar.</p> 
+                  <div className='btn-container'>
+                    <Link to="/sida11">
+                      <button className='btn'>Gå vidare</button>
+                    </Link>
+                  </div>
+                </div>
+              </div>  
+            </div>
+            <div className='column2'>
+              <div className='rightSide'>
+                <img className='pageImg' src={img1} alt=""/>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </motion.div>
   )
 }
 
