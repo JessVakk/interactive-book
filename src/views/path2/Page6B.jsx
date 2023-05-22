@@ -1,8 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion';
-import '../App.css';
-import img1 from '../assets/Anohbakomsten.png';
+import '../../App.css';
+import img1 from '../../assets/Anohbakomsten.png';
 
 const Page7 = () => {
    
@@ -18,7 +18,7 @@ const Page7 = () => {
             <div className='column1'>
               <div className='leftSide'>
                 <div className='text-container'>
-                  <p>-Jag är gärna med på kurragömma sa Anoh och tänkte på att han var bra på att gömma sig.</p>
+                  <p>-Jag är gärna med på kurragömma sa Anoh och tänkte på att han var bra på att gömma sig och att han kunde ta det lugnt och passa på att återhämta sig på sitt gömställe.</p>
                   <br />
                   <p> -Jag räknar, sa Kantor Bläckfisk. -för det är jag bra på.</p>
                   <br />

@@ -11,12 +11,19 @@ import Page5 from './views/Page5';
 import Page5A from './views/path2/Page5A';
 import Page6 from './views/Page6';
 import Page6A from './views/path2/Page6A';
+import Page6B from './views/path2/Page6B';
 import Page7 from './views/Page7';
 import Page7A from './views/path2/Page7A';
+import Page7B from './views/path2/Page7B';
 import Page8 from './views/Page8';
 import Page8A from './views/path2/Page8A';
+import Page8B from './views/path2/Page8B';
 import Page9 from './views/Page9';
+import Page9A from './views/path2/Page9A';
 import Page10 from './views/Page10';
+import Page10A from './views/path2/Page10A';
+import Page10B from './views/path2/Page10B';
+import Page11a from './views/path2/Page11a';
 import Page11 from './views/Page11';
 
 
@@ -37,13 +44,20 @@ function App() {
             <Route path='/sida5a' element= { <Page5A />} />
             <Route path='/sida6' element= { <Page6 />} />
             <Route path='/sida6a' element= { <Page6A />} />
+            <Route path='/sida6b' element= { <Page6B />} />
             <Route path='/sida7' element= { <Page7 />} />
             <Route path='/sida7a' element= { <Page7A />} />
+            <Route path='/sida7b' element= { <Page7B/>} />
             <Route path='/sida8' element= { <Page8 />} />
             <Route path='/sida8a' element= { <Page8A />} />
+            <Route path='/sida8b' element= { <Page8B/>} />
             <Route path='/sida9' element= { <Page9 />} />
+            <Route path='/sida9a' element= { <Page9A />} />
             <Route path='/sida10' element= { <Page10 />} />
+            <Route path='/sida10a' element= { <Page10A />} />
+            <Route path='/sida10b' element= { <Page10B />} />
             <Route path='/sida11' element= { <Page11 />} />
+            <Route path='/sida11a' element= { <Page11a />} />
           </Routes>
         </AnimatePresence>
       </header>
