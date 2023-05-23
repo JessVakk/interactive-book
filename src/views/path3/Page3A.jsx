@@ -34,7 +34,7 @@ const Page3A = () => {
                     <Link to="/sida4a">
                       <button className='btn'>Gå ut från gården</button>
                     </Link>
-                    <Link to="/sida4b">
+                    <Link to="/sidaC4a">
                       <button className='btn'>Stanna kvar</button>
                     </Link>
                   </div>

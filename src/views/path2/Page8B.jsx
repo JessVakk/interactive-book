@@ -18,7 +18,7 @@ const Page6 = () => {
             <div className='column1'>
               <div className='leftSide'>
                 <div className='text-container'>
-                  <p>Nu tjöt alla i munnen på varandra.  Kantor Bläckfisk spelade trummorna så det dånade om det och Lilly Manet som tyckte det var för läskigt med alla som bråkade började sjunga gällt för att slippa höra allt bråk.</p>
+                  <p>Nu tjöt alla i munnen på varandra. Kantor Bläckfisk spelade trummorna så det dånade om det och Lilly Manet som tyckte det var för läskigt med alla som bråkade började sjunga gällt för att slippa höra allt bråk.</p>
                   <br />
                   <p>Då dök det upp en haj långt borta som simmade rakt mot dem med en hiskelig fart och han verkade vara rasande.</p>
                   <br />

@@ -1,4 +1,4 @@
-
+import React from 'react'
 import { Route, Routes, useLocation} from 'react-router-dom';
 import {AnimatePresence} from 'framer-motion';
 import './App.css';
@@ -31,23 +31,27 @@ import PageC6 from './views/path3/PageC6';
 import PageC7 from './views/path3/PageC7';
 import PageC8 from './views/path3/PageC8';
 import PageC5a from './views/path3/PageC5a';
-
+import PageC4a from './views/path3/PageC4a';
+import Home from './views/Home';
 
 
 
 function App() {
+  
   const location = useLocation();
   return (
     <div className="App">
       <header className="App-header">
         <AnimatePresence mode="wait" inital={false}>
           <Routes location={location} key={location.pathname}>
+            <Route path='/' element= { <Home />} />
             <Route path='/sida1' element= { <Page1 />} />
             <Route path='/sida2' element= { <Page2 />} />
             <Route path='/sida3' element= { <Page3 />} />
             <Route path='/sida3a' element= { <Page3A />} />
             <Route path='/sida4' element= { <Page4 />} />
             <Route path='/sida4a' element= { <Page4A />} />
+            <Route path='/sidaC4a' element= { <PageC4a />} />
             <Route path='/sida5' element= { <Page5 />} />
             <Route path='/sidaC5' element= { <PageC5/>} />
             <Route path='/sidaC5a' element= { <PageC5a/>} />

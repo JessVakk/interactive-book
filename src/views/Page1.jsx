@@ -3,17 +3,22 @@ import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion';
 import '../App.css';
 import img1 from '../assets/Anoh.png';
+import img2 from '../assets/anoh1smaller.png';
 
 const Page1 = () => {
-   
+ 
   return (
     <motion.div intial={{scaleX: 1}} 
     animate={{scaleX: 1}} 
     exit={{scaleX: 0}}
-    transition={{duration: 1, stiffness: 5000}}
-    
+    transition={{duration: 1, stiffness: 5000}}  
     >
-      <div>
+      <div >
+      <div className='overlay'>
+        <div className="modalContainer">
+          <h1>Var god vänd på plattan för att läsa boken.</h1>
+        </div>
+        </div>
         <div className='BackgroundCover'>
           <div className='splitScren'>
             <div className='column1'>
@@ -35,12 +40,13 @@ const Page1 = () => {
             <div className='column2'>
               <div className='rightSide'>
                 <motion.div className="image-container">
-                  <motion.img className='pageImg' src={img1} alt=""/>
+                  <motion.img whileTap ={{ scale: 2.5 }} className='pageImg' src={img2} alt=""/>
                 </motion.div>
               </div>
             </div>
           </div>
         </div>
+      
       </div>
     </motion.div>
   )
