@@ -5,8 +5,10 @@ import './App.css';
 import Page1 from './views/Page1';
 import Page2 from './views/Page2';
 import Page3 from './views/Page3';
-import Page3A from './views/path2/Page3A';
+import Page3A from './views/path3/Page3A';
 import Page4 from './views/Page4';
+import Page4A from './views/path3/Page4A';
+import PageC5 from './views/path3/PageC5';
 import Page5 from './views/Page5';
 import Page5A from './views/path2/Page5A';
 import Page6 from './views/Page6';
@@ -25,6 +27,11 @@ import Page10A from './views/path2/Page10A';
 import Page10B from './views/path2/Page10B';
 import Page11a from './views/path2/Page11a';
 import Page11 from './views/Page11';
+import PageC6 from './views/path3/PageC6';
+import PageC7 from './views/path3/PageC7';
+import PageC8 from './views/path3/PageC8';
+import PageC5a from './views/path3/PageC5a';
+
 
 
 
@@ -40,7 +47,13 @@ function App() {
             <Route path='/sida3' element= { <Page3 />} />
             <Route path='/sida3a' element= { <Page3A />} />
             <Route path='/sida4' element= { <Page4 />} />
+            <Route path='/sida4a' element= { <Page4A />} />
             <Route path='/sida5' element= { <Page5 />} />
+            <Route path='/sidaC5' element= { <PageC5/>} />
+            <Route path='/sidaC5a' element= { <PageC5a/>} />
+            <Route path='/sidaC6' element= { <PageC6/>} />
+            <Route path='/sidaC7' element= { <PageC7/>} />
+            <Route path='/sidaC8' element= { <PageC8/>} />
             <Route path='/sida5a' element= { <Page5A />} />
             <Route path='/sida6' element= { <Page6 />} />
             <Route path='/sida6a' element= { <Page6A />} />
