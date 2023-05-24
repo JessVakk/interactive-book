@@ -7,10 +7,9 @@ import img1 from '../assets/anohAngrywithbackground.png';
 import img2 from '../assets/anohShining.png';
 
 const Page3 = () => {
-   const [change, setChange] = useState(false);
-    const toggle=() => {
-      setChange(!change);
-    }
+  const [change, setChange] = useState(true);
+  const toggle=() => {setChange(!change);}
+  
   return (
     <motion.div intial={{scaleX: 1}} 
     animate={{scaleX: 1}} 
@@ -27,8 +26,11 @@ const Page3 = () => {
                   <br />
                   <p>-Man är ingen riktig brännmanet om man inte kan brännas, sa den största Maneten.</p>
                   <br />
-                  <p>Anoh blev lite arg. Han skulle allt visa dem att han var bra på att brännas precis som alla andra brännmaneter. Det var dock lite läskigt att prova något han aldrig hade gjort förut. Kan du hjälpa honom? Blås allt vad du kan.</p>
-                  <p>Hände det inget? Blås igen och tryck på Anoh.</p>
+                  <p>Anoh blev lite arg. Han skulle allt visa dem att han var bra på att brännas precis som alla andra brännmaneter. Det var dock lite läskigt att prova något han aldrig hade gjort förut.</p>
+                  <br />
+                  <p><strong> Kan du hjälpa honom? Blås allt vad du kan.</strong></p>
+                  <p><strong>Hände det inget? Blås igen och tryck på Anoh.</strong></p>
+                  <br />
                   <p>När Anoh försökte brännas kom det inget bränn, men han började att lysa med ett svagt sken.</p>
                   <div className='btn-container'>
                     <Link to="/sida4">
