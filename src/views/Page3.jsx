@@ -1,11 +1,16 @@
-import React from 'react'
+import React from 'react';
+import {useState} from 'react'
 import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion';
 import '../App.css';
 import img1 from '../assets/anohAngrywithbackground.png';
+import img2 from '../assets/anohShining.png';
 
 const Page3 = () => {
-   
+   const [change, setChange] = useState(false);
+    const toggle=() => {
+      setChange(!change);
+    }
   return (
     <motion.div intial={{scaleX: 1}} 
     animate={{scaleX: 1}} 
@@ -35,7 +40,9 @@ const Page3 = () => {
             </div>
             <div className='column2'>
               <div className='rightSide'>
-                <img className='pageImg' src={img1} alt=""/>
+                <button className='imgButton' onClick={toggle}>
+                  {change ? <img className='buttonImg' src={img1} alt=""/> :<img className='pageImg' src={img2} alt=""/> }
+                </button>
               </div>
             </div>
           </div>

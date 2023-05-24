@@ -2,8 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
 
 .bookCover{
   max-width: 100vh;
@@ -32,7 +37,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   max-width: 100%;
 }
 
@@ -138,6 +142,14 @@ a{
   align-items: center;
   object-fit: cover;
 }
+.imgButton{
+  border: none;
+  background-color: #fefefe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
 
 
 @media (orientation:portrait){
@@ -197,40 +209,60 @@ display: none;
     
   }
   .leftSide{
-    background: blue;
+    background: #fefefe;
   
   }
 }
-
-@media (orientation:landscape) and (min-width:800px){
+@media (orientation:landscape) and (min-width:900px) and (min-height: 600px){
   
-  .leftSide{
-    background: purple;
-
-  }
   .pageImg, img{
-    max-width: 100%;
-   
+    max-width: 90%;
+  }
+  p {
+    font-size: 12px;
   }
 }
-@media (orientation:landscape) and (min-width:1000px){
+
+@media (orientation:landscape) and (min-width:1000px) and (min-height: 700px){
+ 
+  p {
+    font-size: 14px;
+  }
+  .text-container{
+    margin: 3rem 3rem 0 3rem;
+  }
+}
+@media (orientation:landscape) and (min-width:1180px){
   
   .leftSide{
     background: white;
-  
   }
-  
+  p {
+    font-size: 16px;
+  }
 }
 @media (orientation:landscape) and (min-width:1200px){
   
-  .leftSide{
-    background: red;
-  
-  }
   .pageImg, img{
-
     max-width: 100%;
-   
+  }
+  p {
+    font-size: 17px;
+  }
+}
+
+@media (orientation:landscape) and (min-width:1500px){
+  
+  .pageImg, img{
+    max-width: 110%; 
+  }
+
+  p {
+    font-size: 22px;
+  }
+  .text-container{
+    margin: 3rem 3rem 0 3rem;
+  
   }
 }
 @keyframes App-logo-spin {
