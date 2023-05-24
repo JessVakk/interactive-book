@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion';
 import '../../App.css';
-import img1 from '../../assets/shiningAnoh.png';
+import img1 from '../../assets/shiningAnoh1.png';
 
 const PageC7 = () => {
    

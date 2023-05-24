@@ -21,7 +21,6 @@ const Page5A = () => {
                   <p>Sjöhästen Alia blev var riktigt arg på maneterna och utbrast. </p>
                   <p>-Det är inte schyst, ni vet att Anoh inte kan simma för fort då kan han bli dålig i hjärtat. Vi borde leka en lek som alla kan vara med på.</p>
                   <p> -Kan vi inte göra en dans -och-sångföreställning istället? </p>
-                  <br />
                   <p>-Okej, men då vill jag spela trummor, sa Kantor bläckfisk.</p>
                   <p>-För jag är bra på att räkna och hålla takten.</p>
                   <br />
