@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion';
 import '../App.css';
-import img1 from '../assets/Anoh.png';
+import img1 from '../assets/bookcover.png';
 
 const Home = () => {
  
@@ -15,19 +15,16 @@ const Home = () => {
                 </div>
             </div>
             <div className='bookContainer'>
-                <div className='btn-container'>
+                <div className='btnBookcoverContainer'>
                     
-                    <Link to="/sida2">
-                        <button className='btn'>Nästa sida</button>
+                    <Link to="/sida1">
+                        <button className='btn'>Läs boken</button>
                     </Link>
                 </div>
           
             <div className='coverImage'>
                 <motion.div className="image-container">
                     <motion.img className='pageImg' src={img1} alt=""/>
-                    <div className="coverSubtitle">
-                        <h2>Den Lilla Blå Maneten.</h2>
-                    </div>
                 </motion.div>
             </div>
             </div>
