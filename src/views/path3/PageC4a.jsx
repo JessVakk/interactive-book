@@ -30,7 +30,7 @@ const PageC4a = () => {
                   <br />
                   <p>-Ni måste simma tillbaka till förskolan och hämta hjälp.</p>
                   <div className='btn-container'>
-                    <Link to="/sidaC6">
+                    <Link to="/sidaC5b">
                       <button className='btn'>Gå vidare</button>
                     </Link>
                   </div>

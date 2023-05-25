@@ -31,8 +31,11 @@ import PageC6 from './views/path3/PageC6';
 import PageC7 from './views/path3/PageC7';
 import PageC8 from './views/path3/PageC8';
 import PageC5a from './views/path3/PageC5a';
+import PageC5b from './views/path3/PageC5b';
 import PageC4a from './views/path3/PageC4a';
 import Home from './views/Home';
+import PageC6b from './views/path3/PageC6b';
+import PageC7b from './views/path3/PageC7b';
 
 
 
@@ -55,7 +58,9 @@ function App() {
             <Route path='/sida5' element= { <Page5 />} />
             <Route path='/sidaC5' element= { <PageC5/>} />
             <Route path='/sidaC5a' element= { <PageC5a/>} />
+            <Route path='/sidaC5b' element= { <PageC5b/>} />
             <Route path='/sidaC6' element= { <PageC6/>} />
+            <Route path='/sidaC6b' element= { <PageC6b/>} />
             <Route path='/sidaC7' element= { <PageC7/>} />
             <Route path='/sidaC8' element= { <PageC8/>} />
             <Route path='/sida5a' element= { <Page5A />} />
@@ -65,6 +70,7 @@ function App() {
             <Route path='/sida7' element= { <Page7 />} />
             <Route path='/sida7a' element= { <Page7A />} />
             <Route path='/sida7b' element= { <Page7B/>} />
+            <Route path='/sidaC7b' element= { <PageC7b/>} />
             <Route path='/sida8' element= { <Page8 />} />
             <Route path='/sida8a' element= { <Page8A />} />
             <Route path='/sida8b' element= { <Page8B/>} />
