@@ -1,3 +1,7 @@
+Starta projektet genom att skriva npm start terminalen för mappen interactive-book.
+Glöm inte att installera alla paket i samma terminal med npm install
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
