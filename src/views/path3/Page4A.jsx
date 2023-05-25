@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion';
 import '../../App.css';
-import img1 from '../../assets/musselfrisbee.png';
+import img1 from '../../assets/frisbee.png';
 
 const Page4A = () => {
    
@@ -17,16 +17,20 @@ const Page4A = () => {
           <div className='splitScren'>
             <div className='column1'>
               <div className='leftSide'>
-                <div className='text-container'>
-                  <p>De bestämde sig för att gå ut från gården för att själva leta efter mussel-frisbeen.</p>
+                <div className='textContainer'>
+                  <p>De bestämde sig för att gå ut från gården för att själva leta efter musselfrisbeen.</p>
                   <br />
-                  <p>Alla började leta efter musselskalet. -Den som hittar det först vinner, utbrast Kantor Bläckfisk.Alla var med på det och började leta ännu mer frenetiskt.</p>
+                  <p>Alla började leta efter musselfrisbeen. </p>
+                  <p>-Den som hittar det först vinner, utbrast Kantor Bläckfisk. </p>
+                  <p>Alla var med på det och började leta ännu mer frenetiskt.</p>
                   <br />
-                  <p>Anoh fick syn på mussel-frisbeen och utbrast nöjt: -Jag har hittat den! </p>
+                  <p>Anoh fick syn på mussel-frisbeen och utbrast nöjt:  </p>
+                  <p>-Jag har hittat den!</p>
                   <p>Precis då hörde han hur det mullrade till och sedan hörde han hur Gregor Manet ropade på hjälp.</p>
                   <br />
-                  <p>Han funderade om det var ett knep från Gregor Manets sida. Skulle han hämta mussel-frisbeen och vinna eller skulle han hjälpa Gregor Manet?</p>
-                  <div className='btn-container'>
+                  <p>Han funderade om det var ett knep från Gregor Manets sida. </p>
+                  <p>Skulle han hämta musselfrisbeen och vinna eller skulle han hjälpa Gregor Manet?</p>
+                  <div className='btnContainer'>
                     <Link to="/sidaC5">
                       <button className='btn'>Hjälpa Gregor Manet</button>
                     </Link>

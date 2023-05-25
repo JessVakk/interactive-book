@@ -17,7 +17,7 @@ const Page4 = () => {
           <div className='splitScren'>
             <div className='column1'>
               <div className='leftSide'>
-                <div className='text-container'>
+                <div className='textContainer'>
                   <p>De andra maneterna började att skratta.</p>
                   <p> -Maneter ska inte lysa. De ska brännas, sa den gröna maneten som hette Gregor.</p>
                   <br />
@@ -28,7 +28,7 @@ const Page4 = () => {
                   <p>Både Alia Sjöhäst och Deffy Delfin reagerade och pratade i munnen på varandra om förslaget. Det var omöjligt för Anoh att höra vad någon av dem sa.</p>
                   <br />
                   <p>Vem ska Anoh lyssna på?</p>
-                  <div className='btn-container'>
+                  <div className='btnContainer'>
                     <Link to="/sida5">
                       <button className='btn'>Deffy Delfin</button>
                     </Link>

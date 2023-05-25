@@ -17,22 +17,23 @@ const Page10B = () => {
           <div className='splitScren'>
             <div className='column1'>
               <div className='leftSide'>
-                <div className='text-container'>
+                <div className='textContainer'>
                   <p>Anoh tog ett stort andetag och fokuserade på att brännas.</p>
-                  <p>Hjälp Anoh att brännas genom att blåsa och ge honom en uppmuntrande klapp.</p>
                   <p>Anoh började lysa med ett starkt ljus som bländade hajen.</p>
-                  <p>Hurra! Vi besegrade hajen, skrek Kantor Bläckfisk när han såg hajen singla ner på botten och bli liggande.</p>
+                  <br />
+                  <p>-Hurra! Vi besegrade hajen, skrek Kantor Bläckfisk när han såg hajen singla ner på botten och bli liggande.</p>
                   <br />
                   <p>Då hörde de helt plötsligt hajen snyfta till och sedan började han storgråta. -Det var inte meningen att skrämma er jag fick bara panik. En krok har fastnat i min mun och jag är så rädd för krokar. När jag såg tänkte jag att ni kunde hjälpa mig.</p>
                   <br />
                   <p>-Förlåt att vi gjorde dig illa, sa Alia Sjöhäst. -Vi trodde att du skulle anfalla och äta upp oss.</p>
+                  <br />
                   <p>Kantor Bläckfisk klappade hajen på huvudet med en av sina tentakler och sa. -Kan du öppna munnen igen så kan jag ta ut kroken.</p>
                   <p>Alia Sjöhäst höll hajen i fenan medan Kantor Bläckfisk drog ut kroken. Hajen tackade för hjälpen.</p>
                   <br />
                   <p>-Nu när kroken är borta vill du komma till vår förskola och se på vår musik-och- dansföreställning frågade Anoh?</p>  
-                  <div className='btn-container'>
+                  <div className='btnContainer'>
                     <Link to="/sida11a">
-                      <button className='btn'>Gå vidare</button>
+                      <button className='btn'>Nästa sida</button>
                     </Link>
                   </div>
                 </div>

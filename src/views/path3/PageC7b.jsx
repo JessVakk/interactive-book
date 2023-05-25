@@ -17,7 +17,7 @@ const PageC7b = () => {
           <div className='splitScren'>
             <div className='column1'>
               <div className='leftSide'>
-                <div className='text-container'>
+                <div className='textContainer'>
                   <p>-Tack för hjälpen, sa Hajen lättad.</p>
                   <br />
                   <p>-Nu när kroken är borta kan du hjälpa oss att få hem vår skadade fröken till gården? frågade Lilly manet.</p>
@@ -27,10 +27,14 @@ const PageC7b = () => {
                   <p>Med förenade krafter lyckades de få Pedagogen till förskolan.</p>
                   <br />
                   <p>-Tack för att ni hjälpte mig tillbaka till Förskolan, sa Pedagogen.</p>
+                  <p>-Det var bara roligt att ha varit med på ett räddningsuppdrag, sa Deffy Delfin glatt.</p>
+                  <p> Alla vännerna skrattade.</p>
+                  <p>-Jag har fått nog av äventyr för i dag, sa Anoh. -Är det någon som vill gå in och sitta lugnt och stilla och läsa en bok?</p>
+                  <p>Alla vänner tyckte det var en bra idé och kröp ner i soffan.</p>
                   <br />
-                  <div className='btn-container'>
-                    <Link to="/sidaC7b">
-                      <button className='btn'>Gå vidare</button>
+                  <div className='btnContainer'>
+                    <Link to="/sida1">
+                      <button className='btn'>Börja om från början</button>
                     </Link>
                   </div>
                 </div>

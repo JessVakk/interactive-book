@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Routes, useLocation} from 'react-router-dom';
 import {AnimatePresence} from 'framer-motion';
 import './App.css';
+import Home from './views/Home';
 import Page1 from './views/Page1';
 import Page2 from './views/Page2';
 import Page3 from './views/Page3';
@@ -27,16 +28,14 @@ import Page10A from './views/path2/Page10A';
 import Page10B from './views/path2/Page10B';
 import Page11a from './views/path2/Page11a';
 import Page11 from './views/Page11';
-import PageC6 from './views/path3/PageC6';
-import PageC7 from './views/path3/PageC7';
-import PageC8 from './views/path3/PageC8';
+import PageC4a from './views/path3/PageC4a';
 import PageC5a from './views/path3/PageC5a';
 import PageC5b from './views/path3/PageC5b';
-import PageC4a from './views/path3/PageC4a';
-import Home from './views/Home';
+import PageC6 from './views/path3/PageC6';
 import PageC6b from './views/path3/PageC6b';
+import PageC7 from './views/path3/PageC7';
 import PageC7b from './views/path3/PageC7b';
-
+import PageC8 from './views/path3/PageC8';
 
 
 function App() {

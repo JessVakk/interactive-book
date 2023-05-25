@@ -17,13 +17,14 @@ const Page11A = () => {
           <div className='splitScren'>
             <div className='column1'>
               <div className='leftSide'>
-                <div className='text-container'>
+                <div className='textContainer'>
                   <p>Det ville hajen gärna. Han och alla andra barn och Pedagoger på förskolan satte sig förväntansfullt för att titta på föreställningen.</p>
                   <br />
                   <p>Det blev en fantastisk föreställning. Alla lyssnade på Kantor Bläckfisk när han räknade takten. Anoh sjöng mycket vackert medan Maneterna skakade sina maracas genom att brännas och dansen med Alia Sjöhästs piruetter och Deffys Delfins snabbsim blev pricken över i:et.</p>
                   <br />
-                  <p>När föreställningen var slut och alla hurrarop dog ut utbrast Anoh: -Vi kan klara allt när vi jobbar tillsammans.</p>
-                  <div className='btn-container'>
+                  <p>När föreställningen var slut och alla hurrarop dog ut utbrast Anoh: </p>
+                  <p>-Vi kan klara allt när vi jobbar tillsammans.</p>
+                  <div className='btnContainer'>
                     <Link to="/sida1">
                       <button className='btn'>Gå tillbaka till början</button>
                     </Link>

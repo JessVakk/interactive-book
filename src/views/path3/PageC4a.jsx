@@ -17,11 +17,11 @@ const PageC4a = () => {
           <div className='splitScren'>
             <div className='column1'>
               <div className='leftSide'>
-                <div className='text-container'>
+                <div className='textContainer'>
                   <p>-Vi får inte gå ut från gården själva, sa Anoh.</p>
                   <p>-Vi får fråga en Pedagog om hon kan följa med oss ut och leta efter den, sa Deffy Delfin.</p>
                   <br />
-                  <p>Efter en stund var de på andra sidan staketet och letade efter mussel-frisbeen tillsammans med en Pedagog.</p>
+                  <p>Efter en stund var de på andra sidan staketet och letade efter musselfrisbeen tillsammans med en Pedagog.</p>
                   <p>De letar och letar men den verkar vara helt borttrollad.</p>
                   <p>När de nästan har gett upp hoppet om att någonsin kunna hitta den ropar Pedagogen att hon tror att hon ser den och skyndar fram till en mörkare del av korallrevet. Hon ser inte fiskenätet och fastnar med sina armar i nätet och faller sedan till botten med ett skrik av smärta.</p>
                   <br />
@@ -29,9 +29,9 @@ const PageC4a = () => {
                   <p>-Jag har gjort illa några av mina armar och kan inte simma, säger Pedagogen med smärta i rösten.</p>
                   <br />
                   <p>-Ni måste simma tillbaka till förskolan och hämta hjälp.</p>
-                  <div className='btn-container'>
+                  <div className='btnContainer'>
                     <Link to="/sidaC5b">
-                      <button className='btn'>Gå vidare</button>
+                      <button className='btn'>Nästa sida</button>
                     </Link>
                   </div>
                 </div>

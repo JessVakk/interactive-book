@@ -17,20 +17,20 @@ const Page3A = () => {
           <div className='splitScren'>
             <div className='column1'>
               <div className='leftSide'>
-                <div className='text-container'>
+                <div className='textContainer'>
                   <p>Kan vi inte kasta musselfrisbee istället? föreslog Anoh. </p>
                   <br />
-                  <p>-Okej. Jag är med på mussel-frisbee bara jag får börja att kasta, sa Gregor Manet.</p>
+                  <p>-Okej. Jag är med på musselfrisbee bara jag får börja att kasta, sa Gregor Manet.</p>
                   <br />
                   <p>Just då kom Anohs kompisar ut på gården och ville också vara med.</p>
-                  <p>-Det går bra att du kastar först, sa Anoh medan han valde ett litet musselskal som han skulle kasta. -Varför tar du ett litet musselskal? Frågade Lilly Manet. -Det är ju bäst med ett stort.</p>
+                  <p>-Det går bra att du kastar först, sa Anoh medan han valde ett litet musselskal som han skulle kasta. -Varför tar du ett litet musselskal? Frågade Lilly Manet. Det är ju bäst med ett stort.</p>
                   <br />
-                  <p>Gregor Manet valde precis som Lilly Manet ett stort musselskal och kastade det med stor kraft mot målkorgen. Den susade förbi och landade långt ifrån korgen.  Lilly Manets landade närmare korgen, men var ändå långt ifrån. Sist ut var Anoh. Han tog sats och kastade iväg mussel-frisbeen som dalade ner bara en meter från korgen. -Det var bra att jag valde ett litet skal eftersom korgen var så nära, sa Anoh glatt.</p>
+                  <p>Gregor Manet valde precis som Lilly Manet ett stort musselskal och kastade det med stor kraft mot målkorgen. Den susade förbi och landade långt ifrån korgen.  Lilly Manets landade närmare korgen, men var ändå långt ifrån. Sist ut var Anoh. Han tog sats och kastade iväg musselfrisbeen som dalade ner bara en meter från korgen. -Det var bra att jag valde ett litet skal eftersom korgen var så nära, sa Anoh glatt.</p>
                   <br />
-                  <p>Detta gjorde Gregor Manet lite irriterad, så när det var hans tur drämde han iväg mussel-frisbeen med sån kraft att den flög ut från gården. </p>
+                  <p>Detta gjorde Gregor Manet lite irriterad, så när det var hans tur drämde han iväg musselfrisbeen med sån kraft att den flög ut från gården. </p>
                   <br />
                   <p>Vad ska Anoh och hans kompisar göra nu?</p>
-                  <div className='btn-container'>
+                  <div className='btnContainer'>
                     <Link to="/sida4a">
                       <button className='btn'>Gå ut från gården</button>
                     </Link>

@@ -21,7 +21,7 @@ const Page3 = () => {
           <div className='splitScren'>
             <div className='column1'>
               <div className='leftSide'>
-                <div className='text-container'>
+                <div className='textContainer'>
                   <p>-Jag ska testa att bränna, men jag har aldrig gjort det förut, sa Anoh försiktigt.</p>
                   <br />
                   <p>-Man är ingen riktig brännmanet om man inte kan brännas, sa den största Maneten.</p>
@@ -32,7 +32,7 @@ const Page3 = () => {
                   <p><strong>Hände det inget? Blås igen och tryck på Anoh.</strong></p>
                   <br />
                   <p>När Anoh försökte brännas kom det inget bränn, men han började att lysa med ett svagt sken.</p>
-                  <div className='btn-container'>
+                  <div className='btnContainer'>
                     <Link to="/sida4">
                       <button className='btn'>Nästa sida</button>
                     </Link>

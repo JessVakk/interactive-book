@@ -17,7 +17,7 @@ const PageC6b = () => {
           <div className='splitScren'>
             <div className='column1'>
               <div className='leftSide'>
-                <div className='text-container'>
+                <div className='textContainer'>
                   <p>Anoh tog ett stort andetag och fokuserade på att brännas.</p>
                   <p>Anoh blev förvånad när han istället för att bränna hajen började lysa med ett starkt ljus som bländade hajen.</p>
                   <br />
@@ -29,9 +29,9 @@ const PageC6b = () => {
                   <br />
                   <p>Kantor Bläckfisk klappade hajen på huvudet med en av sina tentakler och sa: -Kan du öppna munnen igen så kan jag ta ut kroken.</p>
                   <p>Alia Sjöhäst höll hajen i fenan medan Kantor Bläckfisk drog ut kroken.</p>
-                  <div className='btn-container'>
+                  <div className='btnContainer'>
                     <Link to="/sidaC7b">
-                      <button className='btn'>Gå vidare</button>
+                      <button className='btn'>Nästa sida</button>
                     </Link>
                   </div>
                 </div>

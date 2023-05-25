@@ -17,7 +17,7 @@ const PageC5a = () => {
           <div className='splitScren'>
             <div className='column1'>
               <div className='leftSide'>
-                <div className='text-container'>
+                <div className='textContainer'>
                   <p>Jag ska vinna det här och visa dem vad jag kan, tänkte Anoh bestämt och simmade mot musselfrisbeen. Men när ropen efter hjälp blev allt högre och mer desperata insåg han att det var på allvar. Han var tvungen att strunta i musselfrisbeen för att hjälpa till.</p>
                   <br />
                   <p>Ropen på hjälp kom från den gamla grottruinen. Alla samlades runt den gamla ingången. Den som förut hade varit öppen var nu blockerat av sten som hade rasat ner över ingången och den Gregor Manet var nu fångad där inne.</p>
@@ -28,9 +28,9 @@ const PageC5a = () => {
                   <p>-Hur ska vi få ut honom? skrek den ena maneten. -Vi försöker att flytta på stenarna sa Kantor Bläckfisk. Alla försökte gemensamt flytta på stenarna, men de var för tunga. De lyckades bara skapa en öppning så liten att man kunde kika igenom den med ett öga.</p>
                   <br />
                   <p>-Vi måste leta om det finns någon annan öppning, föreslog Anoh. De simmade runt grottan och fick till sist syn på en öppning som blockerades av en muräna</p> 
-                  <div className='btn-container'>
+                  <div className='btnContainer'>
                     <Link to="/sidaC6">
-                      <button className='btn'>Gå vidare</button>
+                      <button className='btn'>Nästa sida</button>
                     </Link>
                   </div>
                 </div>

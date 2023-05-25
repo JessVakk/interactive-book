@@ -17,12 +17,13 @@ const Page7 = () => {
           <div className='splitScren'>
             <div className='column1'>
               <div className='leftSide'>
-                <div className='text-container'>
-                  <p>-Jag är gärna med på kurragömma sa Anoh och tänkte på att han var bra på att gömma sig och att han kunde ta det lugnt och passa på att återhämta sig på sitt gömställe.</p>
+                <div className='textContainer'>
+                  <p>-Jag är gärna med på kurragömma, sa Anoh och tänkte på att han var bra på att gömma sig och att han kunde ta det lugnt och passa på att återhämta sig på sitt gömställe.</p>
                   <br />
                   <p> -Jag räknar, sa Kantor Bläckfisk. -för det är jag bra på.</p>
                   <br />
-                  <p>Alla simmade iväg för att gömma sig medan Kantor Bläckfisk räknade: Ett, två , tre , fyra, fem, sex, sju, åtta, nio, tio. -Nu kommer jag.</p>
+                  <p>Alla simmade iväg för att gömma sig medan Kantor Bläckfisk räknade: Ett, två , tre , fyra, fem, sex, sju, åtta, nio, tio. </p>
+                  <p>-Nu kommer jag.</p>
                   <br />
                   <p>Det tog inte lång stund för Kantor Bläckfisk att hitta Deffy Delfin, Lilly Manet och Alia Sjöhäst. Nu var det bara Anoh och Gregor Manet kvar att hitta.</p>
                   <br />
@@ -30,7 +31,7 @@ const Page7 = () => {
                   <p>Skulle han simma ut från sitt gömställe och hjälpa Gregor Manet? men då skulle han inte vinna. Tänk om den Gregor Manet bara lurades för att locka ut Anoh från sitt gömställe, så att han kunde vinna istället?</p>        
                   <br />
                   <p>Vad skulle Anoh göra?</p>
-                  <div className='btn-container'>
+                  <div className='btnContainer'>
                     <Link to="/sida8">
                       <button className='btn'>Hjälpa till</button>
                     </Link>

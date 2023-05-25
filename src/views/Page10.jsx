@@ -17,7 +17,7 @@ const Page10 = () => {
           <div className='splitScren'>
             <div className='column1'>
               <div className='leftSide'>
-                <div className='text-container'>
+                <div className='textContainer'>
                   <p>-Då sätter vi planen i verket, sa Anoh.</p>
                   <br />
                   <p>Anoh höll andan när han såg Lilly Manet bränna muränan, skulle han nappa på betet och simma efter Deffy Delfin?</p>
@@ -34,9 +34,9 @@ const Page10 = () => {
                   <p>-Det är jag, ropade Anoh. -Gå mot ljuset så hittar du ut.</p>
                   <br />
                   <p>Det gick inte många sekunder innan Gregor Manet var framme och kramade om sina kompisar.</p> 
-                  <div className='btn-container'>
+                  <div className='btnContainer'>
                     <Link to="/sida11">
-                      <button className='btn'>Gå vidare</button>
+                      <button className='btn'>Nästa sida</button>
                     </Link>
                   </div>
                 </div>

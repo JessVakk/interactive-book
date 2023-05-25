@@ -17,7 +17,7 @@ const Page5 = () => {
           <div className='splitScren'>
             <div className='column1'>
               <div className='leftSide'>
-                <div className='text-container'>
+                <div className='textContainer'>
                   <p>-Ja, vi tävlar sa Deffy Delfin entusiastiskt.</p>
                   <p>Hon tyckte att en simtävling var en bra idé eftersom hon själv var snabb och tyckte om att vinna.</p>
                   <p> Hon visste dock att det inte var bara för Anohs hjärta att simma så fort så hon tillade:</p>
@@ -27,7 +27,7 @@ const Page5 = () => {
                   <p>-Vad är du för en manet egentligen? Du kan varken brännas eller simma fort.</p>
                   <br />
                   <p>Anoh funderade på vad han skulle göra.</p>
-                  <div className='btn-container'>
+                  <div className='btnContainer'>
                     <Link to="/sida6">
                       <button className='btn'>Vara domare</button>
                     </Link>

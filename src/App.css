@@ -100,12 +100,12 @@ a{
   cursor: pointer;
   
 }
-.text-container{
+.textContainer{
   margin: 2rem;
   min-height: 81vh;
   position: relative;
 }
-.btn-container{
+.btnContainer{
   display: flex;
   justify-content: space-evenly;
   min-width: 100%;
@@ -228,7 +228,7 @@ display: none;
   p {
     font-size: 14px;
   }
-  .text-container{
+  .textContainer{
     margin: 3rem 3rem 0 3rem;
   }
 }
@@ -260,7 +260,7 @@ display: none;
   p {
     font-size: 22px;
   }
-  .text-container{
+  .textContainer{
     margin: 3rem 3rem 0 3rem;
   
   }

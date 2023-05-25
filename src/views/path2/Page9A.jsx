@@ -17,8 +17,8 @@ const Page9A = () => {
           <div className='splitScren'>
             <div className='column1'>
               <div className='leftSide'>
-                <div className='text-container'>
-                  <p>När hajen kom så nära att hon kunde se in i hans ilskna ögon började hon surra runt i en piruett så att stjärtfenan daskade till hon om i ansiktet.</p>
+                <div className='textContainer'>
+                  <p>När hajen kom så nära att hon kunde se in i hans ilskna ögon började hon snurra runt i en piruett så att stjärtfenan daskade till hon om i ansiktet.</p>
                   <br />
                   <p>De andra såg Alia Sjöhästs hjältemodiga insats och var genast där för att hjälpa till. Deffy Delfin simmade flera gånger runt hajen i sådan fart att hajen blev alldeles yr. Då passade Maneterna på att bränna hajen, medan Kantor Bläckfisk gjorde krokben så att hajen föll ner på botten med en duns.</p>
                   <br />
@@ -26,7 +26,7 @@ const Page9A = () => {
                   <p>Om jag inte gör någonting kommer Alia bli uppäten, tänkte Anoh förtvivlat</p>
                   <br />
                   <p>Vad ska han göra?</p>  
-                  <div className='btn-container'>
+                  <div className='btnContainer'>
                     <Link to="/sida10a">
                       <button className='btn'>Skrika</button>
                     </Link>
